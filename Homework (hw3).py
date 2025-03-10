@@ -24,7 +24,7 @@ def tic_tac_toe_checker(board: List[List[str]]) -> str:
 
     # Проверяем, есть ли пустые клетки
     if any("-" in row for row in board):
-        return "Игра незакончена! "
+        return "Игра не окончена! "
 
     return "Ничья"
 
